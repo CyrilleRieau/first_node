@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/CyrilleRieau/first_node#readme",
   "dependencies": {
+    "mariasql": "^0.2.6",
     "mysql": "^2.14.1"
   }
 }
