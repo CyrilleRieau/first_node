@@ -24,9 +24,10 @@
                         isGood: valeur.is_good
                     }
                 });
+                callback(retour);
             });
         });
         con.end();
     }
 
-    module.exports = test;
+    module.exports = { getAllDoggos: getAllDoggos };
