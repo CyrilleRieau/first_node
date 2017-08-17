@@ -4,7 +4,7 @@ function test() {
     let con = mysql.createConnection({
         host: "localhost",
         user: "cyrille",
-        password: "m0byl3tte",
+        password: "mdp",
         database: "first_db"
     });
     con.connect(function(err) {
@@ -17,5 +17,6 @@ function test() {
             console.log(result[i].name);
         });
     });
+    con.end();
 }
 module.exports = test;
